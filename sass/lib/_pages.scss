@@ -1,0 +1,96 @@
+//MAIN-TOP SECTION start
+#main-top
+{
+    background-color: #2d3e52;
+    h4,ul
+    {
+        color: white;
+    }
+    li
+    {
+        font-size: 14px;
+    }
+    li.active
+    {
+        color: #fdb714;
+    }
+}
+//MAIN-TOP SECTION end
+
+//MAIN SECTION start
+#main
+{
+    padding: 80px 0;
+    background-image: url("../img/holiday.jpg");
+    background-size: cover;
+    background-position: 65% 50%;
+    h1
+    {
+        color: white;
+        font-weight: 900;
+        text-shadow: -2px 2px 3px rgba(0,0,0,0.25);
+    }
+    h2
+    {
+        color: #fdb714;
+        font-weight: 900;
+        text-shadow: -2px 2px 3px rgba(0,0,0,0.25);
+    }
+}
+//MAIN SECTION end
+
+//HOLIDAY-TAB SECTION start
+#holiday-tab
+{
+    .s-holiday-tab
+    {
+        transform: translateY(-92px);
+        li
+        {
+            padding: 10px 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            a
+            {
+                text-decoration: none;
+                color: rgb(41, 39, 39);
+            }
+        }
+        li.active
+        {
+            background-color: white;
+            a
+            {
+                color: #01b7f2!important;                
+            }
+            i
+            {
+                color: #fdb714;
+            }
+        }
+    }
+    .s-holiday-tab-desc
+    {
+        top: -40px;
+        opacity: 0;
+        h4
+        {
+            color: #01b7f2;
+        }
+        p
+        {
+            color: #838383;
+        }
+        img
+        {
+            width: 70%;
+            object-fit: cover;
+        }
+    }
+    .s-holiday-tab-desc.active
+    {
+        opacity: 1;
+    }
+}
+//HOLIDAY-TAB SECTION end
+

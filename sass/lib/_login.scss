@@ -1,0 +1,114 @@
+#s-login-body
+{
+    background-color: #8f3fa1;
+}
+#login
+{
+    height: 100vh;
+    h3
+    {
+        color: white;
+        text-shadow: 0 10px 6px #6a1b7cc7;
+    }
+    .s-login-input-group
+    {
+        width: 100%;
+        input,button
+        {
+            color: white;
+            outline: none;
+            border: none;
+            width: 50%;
+            border-radius: 50px;
+            border: 3px solid white;
+            background-color: transparent;
+            padding: 20px 0;
+            text-indent: 180px;
+            box-shadow: 0 10px 6px rgba(47, 30, 186, 0.13);
+        }
+        button
+        {
+            text-indent: 0;
+            font-size: 1.5rem;
+            color: white;
+            background-color: #fdb714;
+            border: none;
+            font-weight: 900;
+            cursor: pointer;
+            &:hover
+            {
+                background-color: #e6a204;
+            }
+            .s-icon-circle
+            {
+                right: 1%;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 60px;
+                height: 60px;
+                background-color: white;
+                border-radius: 50%;
+                i
+                {
+                    font-size: 1.5rem;
+                    color: #fdb714;
+                }
+            }
+        }
+        .s-text-username,.s-text-password
+        {
+            left: 28%;
+            top: 50%;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+        
+    }
+    @media (min-width: 768px) and (max-width: 991px)
+    {
+        input,button
+        {
+            width: 70%!important;
+        }
+        .s-text-username,.s-text-password
+        {
+            left: 19%!important;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.9px)
+    {
+        input,button
+        {
+            width: 100%!important;
+        }
+        .s-text-username,.s-text-password
+        {
+            left: 5%!important;
+        }
+    }
+    @media (max-width: 575.9px)
+    {
+        input,button
+        {
+            width: 100%!important;
+        }
+        .s-text-username,.s-text-password
+        {
+            left: 5%!important;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 480.9px)
+    {
+        button
+        {
+            font-size: 0.9rem!important;
+        }
+        .s-icon-circle
+        {
+            width: 45px!important;
+            height: 45px!important;
+        }
+    }
+}
